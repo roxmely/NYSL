@@ -85,6 +85,9 @@ nav .li {
   justify-content: center;
   padding-top: 200px;
 }
+.eve img {
+  width: 320px;
+}
 .events,
 .events1,
 .events2 {
@@ -124,12 +127,22 @@ main {
 .contact {
   font-size: 30px;
   text-align: center;
-  margin-top: 160px;
   font-family: monospace;
+}
+.contact img {
+  width: 405px;
 }
 
 /* rules */
 
+.title1 img {
+  width: 130px;
+}
+.dibuj {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 section {
   margin: 10px 400px 10px 400px;
   padding-top: 40px;
