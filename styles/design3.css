@@ -5,7 +5,7 @@
 
 /* body */
 body {
-  background-color: #c59c3170;
+  background-image: linear-gradient(#00ffbad9, yellow);
 }
 /* header */
 
@@ -27,7 +27,7 @@ h1 {
 
 /* nav */
 nav {
-  background-color: #d26a26;
+  background-image: linear-gradient(#00ff09d9, yellow);
   word-spacing: 20px;
   font-family: monospace;
   text-align: end;
@@ -79,16 +79,22 @@ nav .li {
   padding-top: 30px;
 }
 
+.eve {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+.events,
+.events1,
+.events2 {
+  width: 400px;
+}
+
 .text {
   display: flex;
   justify-content: space-around;
   font-size: 30px;
-}
-
-.events {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 /* main */
@@ -126,6 +132,7 @@ main {
 
 section {
   margin: 10px 400px 10px 400px;
+  padding-top: 40px;
 }
 .sport li {
   list-style-type: square;
