@@ -118,6 +118,9 @@ nav .li {
 main {
   font-size: 25px;
   font-family: monospace;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
 
 /* about */
@@ -157,7 +160,7 @@ main {
   justify-content: center;
 }
 section {
-  margin: 10px 400px 10px 400px;
+  margin: 10px 100px 10px 100px;
   padding-top: 40px;
 }
 .sport li {
@@ -222,14 +225,15 @@ section {
   padding-left: 497px;
 }
 .google-maps iframe {
-  width: 600px;
-  height: 500px;
+  width: 490px;
+  height: 400px;
+  border-radius: 70px;
+  border-color: black;
 }
 .google-maps {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  padding-top: 30px;
 }
 .google-maps a {
   font-size: 30px;
@@ -295,11 +299,6 @@ table {
 
 /* registration */
 
-form {
-  padding-left: 330px;
-  padding-top: 50px;
-}
-
 .firstname {
   display: flex;
   width: 1263px;
@@ -309,7 +308,7 @@ form {
 .city {
   display: flex;
   width: 1263px;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 .firstn {
   display: flex;
@@ -326,7 +325,11 @@ form {
 .phone {
   display: flex;
   width: 1263px;
-  padding-top: 5px;
+  padding-top: 15px;
+}
+.subt {
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .phone1 {
@@ -350,13 +353,13 @@ form {
 .bdate,
 .grade1 {
   display: flex;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 .address {
   display: flex;
   width: 1263px;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 .box1 {
@@ -369,7 +372,7 @@ form {
 .parent {
   display: flex;
   width: 1263px;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 .school {
   display: flex;
@@ -379,7 +382,8 @@ form {
   display: flex;
 }
 .size {
-  padding: 10px 0px 10px 0px;
+  padding-top: 15px;
+  font-weight: bolder;
 }
 .jersey {
   display: flex;
