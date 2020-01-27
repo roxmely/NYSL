@@ -68,7 +68,20 @@ nav .li {
 /* todas las paginas en común  */
 
 /* home -> */
+.event1 h4:hover {
+  background-color: rgb(255, 251, 0);
+  text-decoration: none;
+}
 
+.events h4:hover {
+  background-color: rgb(255, 251, 0);
+  text-decoration: none;
+}
+
+.event2 h4:hover {
+  background-color: rgb(255, 251, 0);
+  text-decoration: none;
+}
 .photo img {
   height: 300px;
 }
@@ -239,7 +252,7 @@ form {
 .button button {
   font-size: 25px;
   width: 80px;
-  background-color: cornflowerblue;
+  background-color: rgb(46, 185, 70);
 }
 
 /* game info */
@@ -251,6 +264,11 @@ table {
   padding-top: 35px;
   margin: auto;
   border-color: greenyellow;
+}
+
+.months p:hover {
+  background-color: rgb(137, 231, 128);
+  text-decoration: none;
 }
 
 .table1,
@@ -265,7 +283,7 @@ table {
 
 .google-maps a:hover {
   margin: auto;
-  background-color: rgba(255, 0, 0, 0.616);
+  background-color: rgba(57, 202, 52, 0.616);
 }
 .google-maps a {
   text-decoration: none;
