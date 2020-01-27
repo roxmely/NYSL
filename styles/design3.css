@@ -1,0 +1,376 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* body */
+body {
+  background-color: #c59c3170;
+}
+/* header */
+
+.logo img {
+  height: 80px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background-color: black;
+}
+h1 {
+  color: white;
+  font-family: monospace;
+}
+
+/* nav */
+nav {
+  background-color: #d26a26;
+  word-spacing: 20px;
+  font-family: monospace;
+  text-align: end;
+}
+.li a:hover {
+  background-color: rgb(255, 251, 0);
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+nav .lihome,
+.lirul,
+.ligame,
+.licont,
+.lireg,
+.liab {
+  font-size: 20px;
+  background-color: rgb(255, 251, 0);
+}
+
+nav .li {
+  font-size: 20px;
+}
+
+.list1,
+.list2 {
+  width: 300px;
+}
+/* title */
+.title h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  font-size: 35px;
+}
+/* todas las paginas en común  */
+
+/* home -> */
+
+.photo img {
+  height: 300px;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* main */
+
+main {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+/* about */
+.subtitle1 {
+  padding-left: 13px;
+  padding-top: 30px;
+  margin: 25px 500px 0 500px;
+  padding-bottom: 30px;
+  font-family: monospace;
+}
+.subtitle1 img {
+  padding-left: 322px;
+  padding-top: 30px;
+}
+.subtitle1 p {
+  padding-bottom: 30px;
+}
+
+/* contact */
+.contact {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 160px;
+  font-family: monospace;
+}
+
+/* rules */
+
+section {
+  margin: 10px 400px 10px 400px;
+}
+.sport li {
+  list-style-type: square;
+}
+
+.sport {
+  padding-left: 40px;
+}
+.field {
+  padding-left: 40px;
+}
+.bold {
+  font-weight: bold;
+}
+
+.vowels ol {
+  padding-left: 70px;
+  list-style-type: lower-latin;
+}
+
+.vowels1 {
+  padding-left: 103px;
+}
+.vowels1 li {
+  list-style-type: lower-latin;
+}
+
+.square li {
+  list-style-type: square;
+}
+
+.square1 li {
+  list-style-type: square;
+}
+
+.square1 {
+  padding-left: 30px;
+}
+
+.numb {
+  padding-left: 70px;
+}
+
+.circle {
+  padding-left: 70px;
+}
+
+.circle ul {
+  list-style-type: circle;
+}
+.title1 {
+  text-align: center;
+}
+.glocation h2 {
+  padding-left: 680px;
+}
+.foot1 {
+  padding-left: 500px;
+}
+.inf {
+  padding-left: 497px;
+}
+.google-maps iframe {
+  width: 600px;
+  height: 500px;
+}
+.google-maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.google-maps a {
+  font-size: 30px;
+  font-family: monospace;
+  padding-bottom: 5px;
+}
+footer {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  font-size: 20px;
+}
+.button {
+  padding-left: 651px;
+  padding-top: 34px;
+}
+form {
+  font-size: 22px;
+}
+
+.button button {
+  font-size: 25px;
+  width: 80px;
+  background-color: cornflowerblue;
+}
+
+/* game info */
+
+table {
+  width: 800px;
+
+  text-align: center;
+  padding-top: 35px;
+  margin: auto;
+  border-color: greenyellow;
+}
+
+.table1,
+.table2 {
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle4 {
+  text-align: center;
+}
+
+.google-maps a:hover {
+  margin: auto;
+  background-color: rgba(255, 0, 0, 0.616);
+}
+.google-maps a {
+  text-decoration: none;
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+/* registration */
+
+form {
+  padding-left: 330px;
+  padding-top: 50px;
+}
+
+.firstname {
+  display: flex;
+  width: 1263px;
+  padding-top: 5px;
+}
+
+.city {
+  display: flex;
+  width: 1263px;
+  padding-top: 5px;
+}
+.firstn {
+  display: flex;
+  flex-grow: 1;
+}
+.box {
+  flex-grow: 1;
+  border-radius: 5px;
+}
+.lname {
+  display: flex;
+  flex-grow: 1;
+}
+.phone {
+  display: flex;
+  width: 1263px;
+  padding-top: 5px;
+}
+
+.phone1 {
+  display: flex;
+  flex-grow: 1;
+}
+
+.email {
+  display: flex;
+  flex-grow: 1;
+}
+
+.cty {
+  display: flex;
+  flex-grow: 1;
+}
+.code {
+  display: flex;
+  flex-grow: 1;
+}
+.bdate,
+.grade1 {
+  display: flex;
+  padding-top: 5px;
+}
+
+.address {
+  display: flex;
+  width: 1263px;
+  padding-top: 5px;
+}
+
+.box1 {
+  flex-grow: 1;
+  border-radius: 5px;
+}
+.parent1 {
+  display: flex;
+}
+.parent {
+  display: flex;
+  width: 1263px;
+  padding-top: 5px;
+}
+.school {
+  display: flex;
+  padding-top: 5px;
+}
+.position {
+  display: flex;
+}
+.size {
+  padding: 10px 0px 10px 0px;
+}
+.jersey {
+  display: flex;
+  align-items: center;
+}
+.short {
+  display: flex;
+  align-items: center;
+}
+
+.ropa {
+  display: flex;
+  padding-top: 5px;
+}
+.jersey2 {
+  padding-right: 200px;
+}
+.foot {
+  padding-left: 328px;
+  padding-right: 300px;
+  padding-top: 5px;
+}
+.signature {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+.sign,
+.sign1 {
+  display: flex;
+  align-items: baseline;
+}
