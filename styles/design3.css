@@ -301,13 +301,13 @@ table {
 
 .firstname {
   display: flex;
-  width: 1263px;
+  width: 1124px;
   padding-top: 5px;
 }
 
 .city {
   display: flex;
-  width: 1263px;
+  width: 1124px;
   padding-top: 15px;
 }
 .firstn {
@@ -324,7 +324,7 @@ table {
 }
 .phone {
   display: flex;
-  width: 1263px;
+  width: 1124px;
   padding-top: 15px;
 }
 .subt {
@@ -358,7 +358,7 @@ table {
 
 .address {
   display: flex;
-  width: 1263px;
+  width: 1124px;
   padding-top: 15px;
 }
 
@@ -371,7 +371,7 @@ table {
 }
 .parent {
   display: flex;
-  width: 1263px;
+  width: 1124px;
   padding-top: 15px;
 }
 .school {
@@ -403,7 +403,7 @@ table {
 }
 .foot {
   padding-left: 328px;
-  padding-right: 300px;
+  padding-right: 420px;
   padding-top: 5px;
 }
 .signature {
